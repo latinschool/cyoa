@@ -1,12 +1,12 @@
 <h1> CYOA </h1>
 
-<h2> <%= @title %> </h2>
+<h2> <%= @direction[0] %> </h2>
 
-<p> <%= @story %> </p>
+<p> <%= @direction[1] %> </p>
 
-<a href=<%= "/direction/" + @choice_a %> > <%= @choice_a %> </a>
+<a href=<%= "/direction/" + @direction[2]%> > <%= @direction[2] %> </a>
 
 <br> 
 
-<a href=<%= "/direction/" + @choice_b %> > <%= @choice_b %> </a>
+<a href=<%= "/direction/" + @direction[3]%> > <%= @direction[3] %> </a>
 
